@@ -1,0 +1,345 @@
+* {
+    margin: 0%; 
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+.announcement-bar {
+    background-color: black;
+    height: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.announcement-bar i {
+    padding: 20px;
+}
+
+.nav {
+    height:max-content;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.sec-1 {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.sec-1 input {
+    width: 200px;
+    height: 40px;
+    margin-right: 200px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+.sec-1 img {
+    height: 60px;
+    margin-right: 320px;
+}
+
+.sec-2 {
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    /* width: 75%; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.underline-text {
+    display: flex;
+    position: relative;
+}
+
+.sec-2 p {
+  
+    margin-left: 25px;
+    padding-bottom: 10px;   
+}
+
+.perfumes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.perfumes h1 {
+    font-weight: 400;
+    font-family:sans-serif; 
+}
+
+.filter-sort {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    position: relative;
+    padding:  80px;
+    justify-content: start;
+}
+
+.filter-sort button {
+    display: block;
+    height: 40px;
+    width: 150px;
+    margin-left: 80px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.filter-sort .filter {
+    left: 10%;
+    position: absolute;
+    border: 1px solid black;
+    /* box-shadow: inset 0.1rem lightgray; */
+}
+
+.filter-sort .filter span {
+    padding-left: 5px;
+}
+
+.filter-sort .sort {
+    left: 22%;
+    position: absolute;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 100px;
+    /* column-gap: 5px; */
+}
+
+.product-card {
+    /* position: relative;  */
+    margin-bottom: 60px;
+    
+}
+
+
+.product-card img {
+    height: 320px;
+    width: 280px;
+}
+
+.card-body {
+    margin-top: 20px;
+}
+
+.card-body h4 {
+    font-weight: 50;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.card-body h3 {
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.review {
+    margin-top: 10px; 
+}
+
+.price {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.card-body button {
+    width: 280px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.FaQ {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    height: fit-content;
+    line-height: 30px;
+}
+
+.FaQ h1 {
+    margin-bottom: 40px;
+}
+
+.footer-contact {
+    height: 50%;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(42, 41, 41, 0.827);
+    color: white;
+    margin-top: 40px;
+}
+
+.footer-info h3 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.footer-info ul {
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.footer-info input {
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border: none; 
+    border-bottom: 1px solid white;
+    font-size: 16px;
+}
+
+.footer-info p {
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.footer-info i {
+    font-size: 20px;
+}
+
+.scam-sec {
+    background-color: rgba(42, 41, 41, 0.827);
+    height: 50%;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scam-alert {
+    width: 80%;
+    position: absolute;
+    height: 300px;
+    border: 1px solid red;
+    left: 10%;
+    top: 15%;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+}
+
+.scam-alert h2 {
+    color: rgba(223, 74, 74, 0.914);
+    padding-bottom: 10px;
+}
+
+
+.scam-alert p {
+    padding-bottom: 20px;
+}
+
+.scam-alert ul {
+    /* line-height: 30px; */
+    padding-left: 10px;
+}
+
+.keywords {
+    position: relative;
+    color: white; 
+    background-color: rgba(42, 41, 41, 0.827);
+}
+
+.keywords h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 170px;
+}
+
+.keywords p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 280px;
+    line-height: 40px; 
+    cursor: pointer;
+}
+
+
+/* interactive elements */
+
+.sec-2 p::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.25s ease-out;
+}
+
+
+.sec-2 p:hover::before {
+    width: 100%;
+}
+
+.sec-1 input:focus {
+    cursor: pointer;
+    outline: none;
+}
+
+.filter:hover {
+    border: 3px solid lightgrey;
+    transition: all 0.2s ease-in;
+}
+
+.sort:hover{
+    width: 200px;
+    transition: all 0.2s ease-in;
+}
+
+
+.card-img img:hover {
+    scale: 1.1;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-body button::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: -100%;
+    height: 100%;
+    width: 80%;
+    background: linear-gradient(
+        120deg, 
+        transparent 0%, 
+        rgba(255, 255, 255, 0.834) 50%, 
+        transparent 100%
+    );
+    transform: skewX(-20deg);
+    transition: left 1s ease; 
+}
+
+.card-body button:hover::before {
+    left: 100%;
+}
